@@ -1,0 +1,25 @@
+@startuml
+
+title Products - Class Diagram
+
+
+class Products {
+  +Id
+  +Name
+}
+
+class CategoryToProducts
+{
+  +IdProducts
+  +IdCategory
+}
+
+class Category{
+  +Id
+  +Name
+}
+
+Products "*" -- "*" CategoryToProducts
+Category "*" -up- "*" CategoryToProducts
+
+@enduml
