@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ConstantValue.cs" />
+    <Compile Remove="InvalidInputGeometryDataException.cs" />
+    <Compile Remove="Line.cs" />
+    <Compile Remove="LineSegment.cs" />
+    <Compile Remove="NonValidReturnException.cs" />
+    <Compile Remove="Polygon.cs" />
+    <Compile Remove="PolygonDirection.cs" />
+    <Compile Remove="PolygonType.cs" />
+    <Compile Remove="VertexType.cs" />
+  </ItemGroup>
+
+</Project>
