@@ -1,4 +1,3 @@
-#Area calculation
 .Net Core library example project for 2d figure area calculation
 
 Usage example:
